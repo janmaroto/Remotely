@@ -10,7 +10,7 @@ namespace Remotely.Agent.Installer.Win.Models
     {
         public string Product { get; set; } = "DelfosConnect";
 
-        public byte[] Icon { get; set; }
+        public string Icon { get; set; }
 
         public byte TitleForegroundRed { get; set; } = 255;
 
@@ -28,6 +28,6 @@ namespace Remotely.Agent.Installer.Win.Models
 
         public byte ButtonForegroundGreen { get; set; } = 255;
 
-        public byte ButtonForegroundBlue { get; set; } = 255;sw
+        public byte ButtonForegroundBlue { get; set; } = 255;
     }
 }
