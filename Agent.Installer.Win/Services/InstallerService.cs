@@ -239,7 +239,7 @@ namespace Remotely.Agent.Installer.Win.Services
 
             var remotelyKey = baseKey.CreateSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Remotely", true);
             remotelyKey.SetValue("DisplayIcon", Path.Combine(InstallPath, "Remotely_Agent.exe"));
-            remotelyKey.SetValue("DisplayName", "Remotely");
+            remotelyKey.SetValue("DisplayName", "DelfosConnect");
             remotelyKey.SetValue("DisplayVersion", version.FileVersion);
             remotelyKey.SetValue("InstallDate", DateTime.Now.ToShortDateString());
             remotelyKey.SetValue("Publisher", "Translucency Software");

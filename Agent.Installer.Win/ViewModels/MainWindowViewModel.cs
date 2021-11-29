@@ -269,7 +269,7 @@ namespace Remotely.Agent.Installer.Win.ViewModels
         {
             try
             {
-                ProductName = "Remotely";
+                ProductName = "DelfosConnect";
 
                 if (!string.IsNullOrWhiteSpace(brandingInfo?.Product))
                 {
